@@ -10,6 +10,21 @@ Version No.: 1.0
 ## Contact Support
 <tulasi.yakkati@gmail.com>
 
+## Table of Contents
+
+| Section | Page |
+|---|---|
+| Overview | 3 |
+| Prerequisites | 3 |
+| Introduction to Markdown | 4 |
+| Formatting Text in Markdown | 4 |
+| Formatting Lists in Markdown | 5 |
+| Adding Links and Media | 5 |
+| Reference | 6 |
+| Troubleshooting | 7 |
+| Best Practices | 7 |
+| Conclusion | 8 |
+
 ## Overview
 
 Markdown is a lightweight markup language that allows you to format plain text using simple, keyboard-based symbols instead of HTML tags or a mouse-driven interface. Visual Studio Code (VSC) and GitHub both support Markdown natively, making it easy to write and preview formatted documentation.
