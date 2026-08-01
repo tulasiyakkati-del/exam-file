@@ -187,13 +187,13 @@ Yes. Markdown files can be converted to formats such as HTML or PDF using tools 
 
 ## Troubleshooting
 
-**Scenario: Formatting does not render correctly.**
+**Scenario: Formatting does not render correctly.**  
 Solution: Confirm the file has a `.md` extension and the syntax is correctly formatted before saving.
 
-**Scenario: Preview does not open in VS Code.**
+**Scenario: Preview does not open in VS Code.**  
 Solution: Install the "Markdown All in One" extension from the Extensions panel, then reopen the file.
 
-**Scenario: A table does not display in a table format.**
+**Scenario: A table does not display in a table format.**  
 Solution: Confirm each row has the same number of `|` symbols as the header row, and that the separator row uses at least three hyphens per column, such as `|---|---|`.
 
 ---
