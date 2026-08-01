@@ -2,121 +2,206 @@
 Quick Start Guide
 
 Tech Writer's Tribe
-Version No.: 1.0
+Version: 1.0
 
-## Copyright
-<2026 Tech Writer’s Tribe. All rights reserved.>
+---
 
-## Contact Support
-<tulasi.yakkati@gmail.com>
-
-## Table of Contents
+## Contents
 
 | Section | Page |
 |---|---|
-| Overview | 3 |
-| Prerequisites | 3 |
-| Introduction to Markdown | 4 |
-| Formatting Text in Markdown | 4 |
-| Formatting Lists in Markdown | 5 |
-| Adding Links and Media | 5 |
-| Reference | 6 |
-| Troubleshooting | 7 |
-| Best Practices | 7 |
-| Conclusion | 8 |
+| Overview | 2 |
+| Prerequisites | 2 |
+| Concept: Markdown | 2 |
+| Using Markdown | 3 |
+| I. Formatting Text | 3 |
+| II. Formatting Lists | 3 |
+| III. Adding Links and Media | 4 |
+| Reference: Markdown Syntax | 4 |
+| Frequently Asked Questions | 5 |
+| Troubleshooting | 5 |
+| Best Practices | 5 |
+
+---
 
 ## Overview
 
-Markdown is a lightweight markup language that allows you to format plain text using simple, keyboard-based symbols instead of HTML tags or a mouse-driven interface. Visual Studio Code (VSC) and GitHub both support Markdown natively, making it easy to write and preview formatted documentation.
+This quick start guide describes how to use Markdown to format text, create lists, and add links and images.
 
-This guide explains how to use Markdown effectively. It covers the core syntax for formatting text, lists, links, and tables, and provides a quick reference you can use while writing.
+This QSG helps you perform the following:
+1. Understand what Markdown is and how it works.
+2. Format text using headings, bold, and italics.
+3. Create bullet and numbered lists.
+4. Add links and images to your document.
+
+---
 
 ## Prerequisites
 
-Before you begin, make sure you have:
-- Visual Studio Code installed on your computer.
-- A GitHub account, if you plan to publish your Markdown files.
-- A folder location where you can create and save Markdown files.
+- Visual Studio Code is installed on your computer.
+- A GitHub account is available, if you plan to publish your files.
 
-## Introduction to Markdown
+---
 
-Markdown was created by John Gruber in 2004 as a simple way to format text using plain characters instead of complex code.
+## Concept: Markdown
 
-Why Markdown is used:
-- It is readable even in its raw, unformatted form.
-- It is portable and works in any plain text editor.
-- It is the standard format for GitHub, technical documentation, and note-taking tools.
+### Introduction to Markdown
 
-## Formatting Text in Markdown
+Markdown is a lightweight markup language that lets you format plain text using simple, keyboard-based symbols instead of HTML tags or a mouse-driven interface. It converts characters such as `#`, `*`, and `-` into formatted elements like headings, bold text, and lists when a file is rendered by an editor or platform that supports Markdown.
 
-Follow these steps to apply basic text formatting.
+### Key Features
 
-1. Open a .md file in VS Code.
-2. To add a heading, type # followed by a space and your heading text. Example: # Heading 1 and ## Heading 2
-3. To make text bold, wrap it with double asterisks. Example: **bold text**
-4. To italicize text, wrap it with single asterisks. Example: *italic text*
+Markdown provides the following features:
+- Headings
+- Bold and italic text
+- Bullet and numbered lists
+- Links and images
+- Inline code and code blocks
+- Blockquotes
+- Tables
+- Horizontal rules
+
+### Access Options
+
+You can write and view Markdown through the following options:
+- Editor: Visual Studio Code
+- Version control platform: GitHub
+- Note-taking apps: Notion, Obsidian
+- Static site generators and documentation tools
+
+### Benefits
+
+Markdown offers the following benefits:
+- Remains readable even in its raw, unformatted form.
+- Works in any plain text editor, without requiring specific software.
+- Is the standard format for GitHub, technical documentation, and note-taking tools.
+- Separates content from formatting, making files lightweight and portable.
+- Supports version control, since files are stored as plain text.
+
+### High-Level Architecture
+
+``` 
+Markdown File (.md)
+↓
+Rendering Engine
+↓
+VS Code Preview | GitHub File View | Static Site Generator 
+```
+
+
+A Markdown file is written once, then rendered by different tools — such as a VS Code preview pane, GitHub's file viewer, or a static site generator — to produce formatted output.
+
+---
+
+## Using Markdown
+
+Markdown formatting is applied directly in your `.md` file using specific symbols. The following sections describe how to format text, create lists, and add links.
+
+### I. Formatting Text
+
+You can format text as headings, bold, or italic to emphasize content and structure your document.
+
+To format text:
+1. Open a `.md` file in VS Code.
+2. Type `#` followed by a space, then your heading text, to create a Heading 1.
+3. Type `##` followed by a space, then your heading text, to create a Heading 2.
+4. Wrap text with `**` on both sides to make it bold.
+5. Wrap text with `*` on both sides to make it italic.
+6. Save the file.
+
+The text is now formatted and displays correctly when previewed or rendered on GitHub.
+
+### II. Formatting Lists
+
+You can create bullet lists or numbered lists to organize information.
+
+To format a list:
+1. Open a `.md` file in VS Code.
+2. Start a line with a hyphen and a space to create a bullet list item.
+3. Start a line with a number, a period, and a space to create a numbered list item.
+4. Repeat step 2 or step 3 for each additional list item.
 5. Save the file.
 
-## Formatting Lists in Markdown
+The list is now created and displays as bullets or numbers when rendered.
 
-Follow these steps to create lists.
+### III. Adding Links and Media
 
-1. Open a .md file in VS Code.
-2. To create a bullet list, start each line with a hyphen and a space. Example: - Item one
-3. To create a numbered list, start each line with a number, period, and space. Example: 1. First step
+You can add links and images to reference external resources or embed visuals.
+
+To add a link or image:
+1. Open a `.md` file in VS Code.
+2. Type your link text in square brackets, followed immediately by the URL in parentheses, to create a link.
+3. Type an exclamation mark, then alt text in square brackets, followed immediately by the image URL in parentheses, to embed an image.
 4. Save the file.
 
-## Adding Links and Media
+The link or image is now added and renders as clickable text or a visible image.
 
-Follow these steps to add links and images.
+---
 
-1. Open a .md file in VS Code.
-2. To add a link, use square brackets for the text and parentheses for the URL. Example: [Visit GitHub](https://github.com)
-3. To add an image, use the same format with an exclamation mark in front. Example: ![Alt text](image-url.jpg)
-4. Save the file.
+## Reference: Markdown Syntax
 
-## Reference
+Markdown uses specific symbols to format text, lists, and links. This reference lists the syntax for each element covered in this guide.
+
+### Text Formatting
 
 | Element | Syntax |
 |---|---|
-| Heading | # to ###### |
-| Bold | **text** |
-| Italic | *text* |
-| Bullet list | - item |
-| Numbered list | 1. item |
-| Link | [text](url) |
-| Image | ![alt](url) |
-| Inline code | `code` |
-| Blockquote | > text |
-| Table | col |
-| Divider | --- |
+| Heading 1–6 | `#` to `######` |
+| Bold | `**text**` |
+| Italic | `*text*` |
+
+### Lists
+
+| Element | Syntax |
+|---|---|
+| Bullet list | `- item` |
+| Numbered list | `1. item` |
+
+### Links and Media
+
+| Element | Syntax |
+|---|---|
+| Link | `[text](url)` |
+| Image | `![alt](url)` |
+
+### Notes
+
+- Markdown syntax is case-sensitive and must be typed exactly as shown.
+- A space is required after `#` for headings to render correctly.
+- Symbols display as plain text if the file does not have a `.md` extension.
+
+---
+
+## Frequently Asked Questions
+
+**Can I use Markdown in any text editor?**
+Yes. Since Markdown files are plain text, they can be opened and edited in any text editor. However, only editors or platforms with Markdown support, such as VS Code or GitHub, will render the formatting visually.
+
+**Do I need an internet connection to write Markdown?**
+No. Markdown files can be created and edited offline. An internet connection is only required to push files to GitHub or view them online.
+
+**Can I convert a Markdown file to another format?**
+Yes. Markdown files can be converted to formats such as HTML or PDF using tools like Pandoc or extensions available in VS Code.
+
+---
 
 ## Troubleshooting
 
-Formatting Does Not Display Correctly
-Check that:
-- The file has a .md extension.
-- The Markdown syntax is correctly formatted.
-- The file is saved before opening the preview.
+**Scenario: Formatting does not render correctly.**
+Solution: Confirm the file has a `.md` extension and the syntax is correctly formatted before saving.
 
-Preview Does Not Open in VS Code
-Check that:
-- A Markdown extension, such as "Markdown All in One," is installed.
-- The correct file is active in the editor.
+**Scenario: Preview does not open in VS Code.**
+Solution: Install the "Markdown All in One" extension from the Extensions panel, then reopen the file.
 
-Table Formatting Looks Broken
-Check that:
-- Each row has the same number of | symbols as the header row.
-- There are no missing dashes in the separator row.
+**Scenario: A table does not display in a table format.**
+Solution: Confirm each row has the same number of `|` symbols as the header row, and that the separator row uses at least three hyphens per column, such as `|---|---|`.
+
+---
 
 ## Best Practices
 
-- Use clear and descriptive headings.
-- Maintain a consistent heading hierarchy.
-- Keep formatting simple and easy to read.
-- Preview your file before publishing.
-- Check all links and tables before sharing the document.
-
-## Conclusion
-
-You have now learned the core Markdown syntax for formatting text, creating lists, adding links and images, and using tables. You can continue applying these skills to write and format your own documentation.
+- Use one blank line between a heading and the paragraph that follows it, to ensure correct rendering.
+- Use consistent heading levels (`#`, `##`, `###`) to maintain a clear document hierarchy.
+- Add a space after `#` and before the heading text, since Markdown requires it to recognize a heading.
+- Preview the file before publishing, to confirm that headings, lists, and tables render as expected.
+- Use relative paths for links and images within the same project, to keep them working if the folder is moved.
