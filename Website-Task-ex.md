@@ -1,57 +1,100 @@
-# Creating a Website Using a Markdown Project
+# Create a Website Using a Markdown Project
 
-You can build a simple website by writing your content in a Markdown file and publishing it using GitHub Pages. This is useful when you want a lightweight, version-controlled way to publish content without setting up separate hosting.
+This topic describes how to create a website by using a Markdown project and publish it through GitHub Pages. After completing this task, you can access your website through the GitHub Pages URL.
 
 ## Prerequisites
+
+Before you begin, ensure that:
 
 - Visual Studio Code is installed on your computer.
 - Git is installed and configured.
 - You have an active GitHub account.
+- Your computer is connected to the internet.
 
 ## To create a website using a Markdown project
 
-1. Open Visual Studio Code.
-2. Select **File > Open Folder**, and create or select a folder for your project.
-3. In the Explorer panel, create a new file named `index.md`.
-4. Open `index.md`, and add your website content using Markdown syntax. For example, type `# Welcome to My Website`. For the full list of Markdown syntax, see the Quick Start Guide.
-5. Save the file.
-6. Open the terminal, and run the following command to initialize Git:
+1. Open **Visual Studio Code**.
 
-git init
+2. Select **File** > **Open Folder**.
 
+3. Create a new folder or open an existing project folder.
 
-7. Run the following command to stage your file:
+4. In the **Explorer** pane, create a new file named `index.md`.
 
-git add .
+5. Open the `index.md` file.
 
+6. Add the required website content by using Markdown syntax.
 
-8. Run the following command to commit your file:
+   Example:
 
-git commit -m "Initial website content"
+   ```markdown
+   # Welcome to My Website
 
+   This is my first website created with Markdown.
+   ```
 
-9. Create a new, empty repository on GitHub:
+7. Save the file.
 
-   a. Go to github.com, and sign in.  
-   b. Select the **+** icon in the top-right corner, and select **New repository**.  
-   c. Enter a repository name.  
-   d. Leave all other options at their default settings.  
-   e. Select **Create repository**.  
+8. Select **Terminal** > **New Terminal** to open the integrated terminal.
 
-10. On the repository page, copy the URL shown under **Quick setup**.
-11. In the terminal, run the following command to connect your project to the repository, replacing the URL with the one you copied:
+9. Run the following command to initialize the Git repository.
 
- 
- git remote add origin https://github.com/username/repo.git
- 
+   ```bash
+   git init
+   ```
 
-12. Run the following command to push your file to GitHub:
+10. Run the following command stage the project files.
 
- 
- git push -u origin main
- 
+    ```bash
+    git add .
+    ```
 
-13. On GitHub, go to your repository, and select *Settings > Pages*.
-14. Under *Source, select the main branch, and select **Save*.
+11. Run the following command commit the project.
 
-Your website is now published and available at the GitHub Pages link shown on the Settings page.
+    ```bash
+    git commit -m "Initial website content"
+    ```
+
+12. Sign in to **GitHub**.
+
+13. Select **+** > **New repository**.
+
+14. Enter a repository name.
+
+15. Leave the default settings unchanged.
+
+16. Select **Create repository**.
+
+17. Under **Quick setup**, copy the **HTTPS** repository URL.
+
+18. Return to **Visual Studio Code**.
+
+19. Connect the local project to the GitHub repository.
+
+    ```bash
+    git remote add origin https://github.com/username/repository.git
+    ```
+
+    Replace `username` with your GitHub username and `repository` with your repository name.
+
+20. Push the project to GitHub.
+
+    ```bash
+    git push -u origin main
+    ```
+
+21. Open the GitHub repository and verify that the `index.md` file is available.
+
+22. Select **Settings**.
+
+23. Select **Pages**.
+
+24. Under **Build and deployment**, select **Deploy from a branch**.
+
+25. From the **Branch** list, select **main**.
+
+26. Select **Save**.
+
+27. Wait a few minutes for GitHub Pages to publish the website.
+
+The website is published successfully. Open the GitHub Pages URL displayed in the **Pages** settings to confirm that the website loads correctly.

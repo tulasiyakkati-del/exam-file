@@ -78,18 +78,6 @@ Markdown offers the following benefits:
 - Separates content from formatting, making files lightweight and portable.
 - Supports version control, since files are stored as plain text.
 
-### High-Level Architecture
-
-``` 
-Markdown File (.md)
-↓
-Rendering Engine
-↓
-VS Code Preview | GitHub File View | Static Site Generator 
-```
-
-
-A Markdown file is written once, then rendered by different tools — such as a VS Code preview pane, GitHub's file viewer, or a static site generator — to produce formatted output.
 
 ---
 
