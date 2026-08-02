@@ -1,6 +1,6 @@
-# Create a Website Using a Markdown Project
+# Create a Website Using a Markdown Project from VSC
 
-This topic describes how to create a website by using a Markdown project and publish it through GitHub Pages. After completing this task, you can access your website through the GitHub Pages URL.
+This topic describes how to create a website by using a Markdown project in Visual Studio Code and publish it through GitHub Pages. After completing this task, you can access your website through the GitHub Pages URL.
 
 ## Prerequisites
 
