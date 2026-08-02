@@ -27,11 +27,9 @@ Before you begin, ensure that:
 
    Example:
 
-   ```markdown
    # Welcome to My Website
 
    This is my first website created with Markdown.
-   ```
 
 7. Save the file.
 
