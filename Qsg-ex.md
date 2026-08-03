@@ -10,12 +10,11 @@
 1. [Overview](#overview)
 2. [Prerequisites](#prerequisites)
 3. [Concept: Markdown](#concept-markdown)
-   1. [Introduction to Markdown](#introduction-to-markdown)
-   2. [Key Features](#key-features)
-   3. [Access Options](#access-options)
-   4. [Applications](#applications)
-   5. [Benefits](#benefits)
-   6. [High-Level Architecture](#high-level-architecture)
+   1. [Key Features](#key-features)
+   2. [Access Options](#access-options)
+   3. [Applications](#applications)
+   4. [Benefits](#benefits)
+   5. [High-Level Architecture](#high-level-architecture)
 4. [Using Markdown Styles](#using-markdown-styles)
    1. [Format Headings](#format-headings)
    2. [Format Text](#format-text)
@@ -30,6 +29,7 @@
    3. [Links and Media](#links-and-media)
    4. [Tables and Code](#tables-and-code)
    5. [Notes](#notes)
+   6. [Additional References](#additional-references)
 6. [Frequently Asked Questions](#frequently-asked-questions)
 7. [Troubleshooting](#troubleshooting)
 8. [Best Practices](#best-practices)
@@ -53,8 +53,6 @@ This QSG helps you perform the following:
 - A GitHub account is available, if you plan to publish your files.
 
 ## Concept: Markdown
-
-### Introduction to Markdown
 
 Markdown is a lightweight markup language that lets you format plain text using simple, keyboard-based symbols instead of HTML tags or a mouse-driven interface. Markdown files use the `.md` extension and are stored as plain text, which keeps them easy to create, edit, and maintain across any text editor.
 
@@ -108,9 +106,10 @@ Markdown offers the following benefits:
 ```
 Markdown File (.md)
     ↓
-Rendering Engine
+Markdown Processor
     ↓
-VS Code Preview | GitHub File View | Static Site Generator
+Formatted Output
+(VS Code Preview or GitHub)
 ```
 
 A Markdown file is written once, then rendered by different tools — such as a VS Code preview pane, GitHub's file viewer, or a static site generator — to produce formatted output.
@@ -137,6 +136,7 @@ To create headings:
 ## Heading 2
 ### Heading 3
 ```
+The headings are created successfully.
 
 ### Format Text
 
@@ -154,6 +154,8 @@ To format text:
 | Italic | `*text*` |
 | Bold Italic | `***text***` |
 | Strikethrough | `~~text~~` |
+
+The text is formatted successfully.
 
 ### Create Lists
 
@@ -175,6 +177,7 @@ To create a list:
 1. Install Visual Studio Code.
 2. Create a Markdown file.
 ```
+The list is created successfully.
 
 ### Add Links
 
@@ -191,6 +194,7 @@ To add a link:
 ```
 [GitHub](https://github.com)
 ```
+The link is added successfully.
 
 ### Add Images
 
@@ -207,6 +211,7 @@ To add an image:
 ```
 ![Markdown Logo](images/markdown-logo.png)
 ```
+The images are added successfully.
 
 ### Create Tables
 
@@ -227,6 +232,8 @@ To create a table:
 | Heading | Creates document headings |
 | Lists   | Organizes information |
 ```
+The table is created successfully.
+
 
 ### Insert Code Blocks
 
@@ -248,6 +255,8 @@ git add .
 git commit -m "Initial commit"
 ```
 ````
+The code blocks are added successfully.
+
 
 ## Reference
 
@@ -292,6 +301,12 @@ Markdown uses specific symbols to format text, lists, links, tables, and code. T
 - Markdown syntax is case-sensitive and must be typed exactly as shown.
 - A space is required after `#` for headings to render correctly.
 - Symbols display as plain text if the file does not have a `.md` extension.
+
+### Additional References
+
+- GitHub Docs – Basic Writing and Formatting Syntax.
+- Markdown Guide.
+- CommonMark Specification.
 
 ## Frequently Asked Questions
 
