@@ -136,7 +136,7 @@ To create headings:
 ## Heading 2
 ### Heading 3
 ```
-The headings are created successfully.
+The heading is created successfully.
 
 ### Format Text
 
@@ -211,7 +211,7 @@ To add an image:
 ```
 ![Markdown Logo](images/markdown-logo.png)
 ```
-The images are added successfully.
+The image is added successfully.
 
 ### Create Tables
 
@@ -234,7 +234,6 @@ To create a table:
 ```
 The table is created successfully.
 
-
 ### Insert Code Blocks
 
 Code blocks display commands or source code while preserving formatting.
@@ -255,7 +254,7 @@ git add .
 git commit -m "Initial commit"
 ```
 ````
-The code blocks are added successfully.
+The code block is inserted successfully.
 
 
 ## Reference
