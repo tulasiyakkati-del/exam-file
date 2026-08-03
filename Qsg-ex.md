@@ -3,14 +3,6 @@
 **Tech Writer's Tribe**
 **Version:** 1.0
 
-## Copyright <!-- omit from toc -->
-
-&copy; 2026 Tech Writer's Tribe. All rights reserved.
-
-## Contact Support <!-- omit from toc -->
-
-tulasi.yakkati@gmail.com
-
 ## Table of Contents <!-- omit from toc -->
 
 1. [Overview](#overview)
